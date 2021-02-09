@@ -1,0 +1,22 @@
+/*Animation in my web*/
+.locale{
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    0%{
+        color:aqua;
+    }
+    25%{
+        color: chartreuse;
+    }
+
+    50%{
+        color: rgb(243, 13, 147);
+    }
+
+    100%{
+        color: darkmagenta;
+    }
+}
